@@ -21,7 +21,7 @@ class _HomeState extends State<Home> {
         itemBuilder: (context, index) {
           return ListTile(
             title: Text(names[index]),
-            subtitle: const Text("Hello Everyone! How are you"),
+            subtitle: const Text("Hello Everyone! bye"),
             trailing: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
